@@ -3,12 +3,16 @@
 > **Segmentation Diagnosis Platform** —— 面向目标分割任务的预测诊断与可视化分析平台。
 > 上传「原图 + GT + Pred」，一次请求拿回全部指标与差异图层；微内核 + 插件化架构，新增一种诊断能力只需新增一个文件。
 
+[![Repo](https://img.shields.io/badge/GitHub-yong997%2FSegmentation__Diagnosis__Platform-181717?logo=github&logoColor=white)](https://github.com/yong997/Segmentation_Diagnosis_Platform)
+![Stars](https://img.shields.io/github/stars/yong997/Segmentation_Diagnosis_Platform?color=yellow&logo=github&logoColor=white)
+![Last Commit](https://img.shields.io/github/last-commit/yong997/Segmentation_Diagnosis_Platform?logo=git&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.110%2B-009688?logo=fastapi&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.46%2B-FF4B4B?logo=streamlit&logoColor=white)
 ![Code Style](https://img.shields.io/badge/code%20style-PEP%208-black)
-![VCS](https://img.shields.io/badge/version%20control-Git-F05032?logo=git&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue)
+
+**仓库地址**：<https://github.com/yong997/Segmentation_Diagnosis_Platform>
 
 ---
 
@@ -142,10 +146,10 @@
 - 无需 GPU，无需深度学习框架，纯 CPU 即可运行
 - 依赖仅 5 个：FastAPI、Uvicorn、Streamlit、OpenCV（headless）、NumPy
 
-### 1. 安装依赖
+### 1. 获取代码并安装依赖
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/yong997/Segmentation_Diagnosis_Platform.git
 cd Segmentation_Diagnosis_Platform
 
 python -m venv .venv
@@ -153,6 +157,9 @@ source .venv/bin/activate        # Windows PowerShell: .venv\Scripts\Activate.ps
 
 pip install -r requirements.txt
 ```
+
+> 想直接下载而不装 Git，可在仓库页面点 `Code → Download ZIP` 解压后从 `cd` 开始。
+> 若已有 SSH 密钥并配置到 GitHub，也可用 `git clone git@github.com:yong997/Segmentation_Diagnosis_Platform.git`。
 
 ### 2. 启动后端（务必先起）
 
@@ -391,7 +398,7 @@ black --check --line-length 100 .
 
 ### 版本控制：Git
 
-项目全程使用 **Git** 管理，遵循主干开发 + 短生命周期分支模型：
+项目托管于 GitHub：<https://github.com/yong997/Segmentation_Diagnosis_Platform>，全程使用 **Git** 管理，遵循主干开发 + 短生命周期分支模型：
 
 | 分支 | 用途 |
 | --- | --- |
