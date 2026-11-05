@@ -1,0 +1,10 @@
+# Streamlit 主题：对齐原型草图的学术宝蓝 + 白底
+[theme]
+base = "light"
+primaryColor = "#1E4FA8"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F9FC"
+textColor = "#1A2230"
+
+[server]
+maxUploadSize = 50

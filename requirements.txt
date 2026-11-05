@@ -1,0 +1,15 @@
+# ---------- 后端（api.py）----------
+fastapi>=0.110
+uvicorn[standard]>=0.27
+python-multipart>=0.0.9   # FastAPI 解析 UploadFile 必需
+
+# ---------- 前端（app.py）----------
+# segmented_control / st.image width="stretch" 需要较新版本
+streamlit>=1.46
+requests>=2.31
+
+# ---------- 图像处理（仅后端使用，Web 场景用 headless 版）----------
+opencv-python-headless>=4.8
+
+# ---------- 矩阵运算 ----------
+numpy>=1.24

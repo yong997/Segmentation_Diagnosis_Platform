@@ -1,0 +1,27 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- 本地配置与机密 ----
+.streamlit/secrets.toml
+
+# ---- Office 临时文件 ----
+~$*.docx
+~$*.pptx
+
+# ---- 运行时产物 ----
+*.log
